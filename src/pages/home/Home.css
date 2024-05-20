@@ -1,0 +1,113 @@
+#container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#section-1{
+    width: 70%;
+    height: auto;
+    flex-direction: column;
+}
+
+#section-2{
+    width: 30%;
+    height: auto;
+}
+
+#card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.option{
+    background-color: #FFFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    border: 0px;
+}
+
+#from-container{
+    background-color: #F2F2F2;
+    height: 100%;
+    border-top-left-radius: 55px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.button-container{
+    margin-left: 50px;
+    padding-top: 60px;
+}
+.button-on {
+    background-color: gray;
+    color: white;
+  }
+  
+  .button-off {
+    background-color: #ECECEC;
+    color: black;
+  }
+  
+  .button-container button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+
+  .btn{
+    margin-top: 20px;
+    background-color: #004019;
+    width: 180px;
+    height: 40px;
+    align-self: flex-end;
+    margin-right: 100px;
+    border-radius: 10px;
+  }
+
+.input{
+    width: 430px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px;
+    padding-left: 20px;
+}
+
+.input-2{
+    width: 215px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px;
+    padding-left: 20px;
+}
+  .lable{
+    color: #444444;
+    font-size: 13px;
+    
+  }
+@media (max-width: 660px) {
+    #section-1{
+        width: 100%;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    #section-2{
+        width: 100%;
+        margin: 20px;
+        margin-left: 60px;
+    }
+  }
+
